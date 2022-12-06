@@ -50,7 +50,6 @@ display: inline-block;
     font-size: 72px;
     line-height: 65px;
     color: #FFFFFF;
-    padding-top: 140px;
     margin-bottom: 14px;
 }
 
@@ -66,7 +65,7 @@ display: inline-block;
     line-height: 49px;
     text-align: center;
     color: #162C38;
-    margin-bottom: 177px;
+   /* margin-bottom: 177px;*/
 
 }
 
@@ -86,70 +85,46 @@ color: #FFFFFF;
 
 .section_3{
     text-align: center;
-    width: 696px; 
-    margin-top: 225px;
-   
-}
-
-.section_wrapper{
+    width: 656px;
+    padding-top: 225px;
     position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
-.section_3_tittle::before{
-    content: '';
+.square_1{
     width: 178px;
     height: 121px;
-    border-radius: 0;
-    left: -412px;
-    top: -104px;
     background-color: #BFDEFB;
     position: absolute;
-    box-sizing: border-box;
+    top:440px ;
+    left:-439px;
 }
 
-.section_3_tittle::after{
-    content: '';
+.square_2{
     width: 178px;
     height: 121px;
-    right: -409px;
-    top: -0.5px;
     background-color: #BFDEFB;
     position: absolute;
-    box-sizing: border-box;
+    top:90px;
+    left:-439px;
 }
 
-.tittle_3{
-    content: '';
+.square_3{
     width: 178px;
     height: 121px;
-    right: -409px;
-    top: -0.5px;
     background-color: #BFDEFB;
     position: absolute;
-    box-sizing: border-box;
-    align-items: center;
-    bottom: 0px;
+    right:-439px;
+    top: 300px ;
 }
 
 
 .section_3_tittle{
-    
   font-weight: 400;
   font-size: 36px;
   line-height: 42px;
   color: #000000;
-}
-
-.form::before{
-    content: '';
-    width: 178px;
-    height: 121px;
-    left: -412px;
-    top:125px;
-    background-color: #BFDEFB;
-    position: absolute;
-    box-sizing: border-box;
-    bottom: 0px;
 }
 
 .section_4{
@@ -164,6 +139,7 @@ color: #FFFFFF;
     text-align: center;
     max-width: 696px;
     margin: 0px auto;
+    position: relative;
 }
 
 .section_4_tittle:before{
@@ -173,8 +149,9 @@ color: #FFFFFF;
     border-radius: 50%;
     background-color: #5C98AB;
     position: absolute;
-    left: 170px;
-    transform: translate(74px, -62px);
+    left:-50px;
+    top:-56px ;
+    position: absolute;
 }
 
 .section_4_tittle::after{
@@ -184,9 +161,9 @@ color: #FFFFFF;
     border-radius: 50%;
     background-color: #BFDEFB;
     position: absolute;
-    right: 32px;
-    top: 375px;
-    transform: translate(-123px, -190px);
+    right:-122px ;
+    bottom:-27px;
+    position: absolute;
 }
 
 .section_5{
